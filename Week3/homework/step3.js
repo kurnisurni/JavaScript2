@@ -1,8 +1,11 @@
+/* eslint-disable prettier/prettier */
+
 'use strict';
 
 function createBase(base) {
-  // Replace this comment and the next line with your code
-  console.log(base);
+    return function(addition) {
+        return base + addition
+    }
 }
 
 const addSix = createBase(6);
